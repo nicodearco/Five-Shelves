@@ -13,6 +13,27 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    private func fetchRecordsForEntity(_ entity: String, inManagedObjectContext managedObjectContext: NSManagedObjectContext) -> [NSManagedObject] {
+        // Create Fetch Request
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entity)
+
+        // Helpers
+        var result = [NSManagedObject]()
+
+        do {
+            // Execute Fetch Request
+            let records = try managedObjectContext.fetch(fetchRequest)
+
+            if let records = records as? [NSManagedObject] {
+                result = records
+            }
+
+        } catch {
+            print("Unable to fetch managed objects for entity \(entity).")
+        }
+
+        return result
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -42,7 +63,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Five_Shelves")
+        let container = NSPersistentContainer(name: "MyItem")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

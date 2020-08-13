@@ -7,29 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F46060E6248ABAE50037FA5A /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46060E5248ABAE50037FA5A /* EditViewController.swift */; };
 		F4612DBA248895C600689119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4612DB9248895C600689119 /* AppDelegate.swift */; };
 		F4612DBC248895C600689119 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4612DBB248895C600689119 /* SceneDelegate.swift */; };
 		F4612DBE248895C600689119 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4612DBD248895C600689119 /* ViewController.swift */; };
 		F4612DC1248895C600689119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4612DBF248895C600689119 /* Main.storyboard */; };
-		F4612DC4248895C600689119 /* Five_Shelves.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4612DC2248895C600689119 /* Five_Shelves.xcdatamodeld */; };
 		F4612DC6248895C700689119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4612DC5248895C700689119 /* Assets.xcassets */; };
 		F4612DC9248895C700689119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4612DC7248895C700689119 /* LaunchScreen.storyboard */; };
+		F4612DD12488983B00689119 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4612DD02488983B00689119 /* SecondViewController.swift */; };
+		F466001E2489A45B00C605B1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F466001D2489A45B00C605B1 /* ThirdViewController.swift */; };
+		F49D3805248C0ED300F4D323 /* ItemListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D3804248C0ED300F4D323 /* ItemListCell.swift */; };
+		F4FE875C24889C4C0017658A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE875B24889C4C0017658A /* Item.swift */; };
+		F4FE875F2488A9870017658A /* MyItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4FE875D2488A9870017658A /* MyItem.xcdatamodeld */; };
+		F4FE87622488B8B50017658A /* MyItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE87602488B8B50017658A /* MyItem+CoreDataClass.swift */; };
+		F4FE87632488B8B50017658A /* MyItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE87612488B8B50017658A /* MyItem+CoreDataProperties.swift */; };
+		F4FE876B2488C4910017658A /* Five_ShelvesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE876A2488C4910017658A /* Five_ShelvesUITests.swift */; };
+		F4FE87792488C4990017658A /* Five_ShelvesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE87782488C4990017658A /* Five_ShelvesTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F4FE876D2488C4910017658A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4612DAE248895C600689119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4612DB5248895C600689119;
+			remoteInfo = "Five Shelves";
+		};
+		F4FE877B2488C4990017658A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4612DAE248895C600689119 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4612DB5248895C600689119;
+			remoteInfo = "Five Shelves";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F46060E5248ABAE50037FA5A /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		F4612DB6248895C600689119 /* Five Shelves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Five Shelves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4612DB9248895C600689119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4612DBB248895C600689119 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F4612DBD248895C600689119 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4612DC0248895C600689119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F4612DC3248895C600689119 /* Five_Shelves.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Five_Shelves.xcdatamodel; sourceTree = "<group>"; };
 		F4612DC5248895C700689119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4612DC8248895C700689119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4612DCA248895C700689119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4612DD02488983B00689119 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F466001D2489A45B00C605B1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		F49D3804248C0ED300F4D323 /* ItemListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCell.swift; sourceTree = "<group>"; };
+		F4FE875B24889C4C0017658A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F4FE875E2488A9870017658A /* MyItem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyItem.xcdatamodel; sourceTree = "<group>"; };
+		F4FE87602488B8B50017658A /* MyItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyItem+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		F4FE87612488B8B50017658A /* MyItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyItem+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		F4FE87682488C4910017658A /* Five ShelvesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five ShelvesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FE876A2488C4910017658A /* Five_ShelvesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five_ShelvesUITests.swift; sourceTree = "<group>"; };
+		F4FE876C2488C4910017658A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FE87762488C4990017658A /* Five ShelvesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five ShelvesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FE87782488C4990017658A /* Five_ShelvesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five_ShelvesTests.swift; sourceTree = "<group>"; };
+		F4FE877A2488C4990017658A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F4612DB3248895C600689119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FE87652488C4910017658A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FE87732488C4990017658A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				F4612DB8248895C600689119 /* Five Shelves */,
+				F4FE87692488C4910017658A /* Five ShelvesUITests */,
+				F4FE87772488C4990017658A /* Five ShelvesTests */,
 				F4612DB7248895C600689119 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				F4612DB6248895C600689119 /* Five Shelves.app */,
+				F4FE87682488C4910017658A /* Five ShelvesUITests.xctest */,
+				F4FE87762488C4990017658A /* Five ShelvesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +115,41 @@
 		F4612DB8248895C600689119 /* Five Shelves */ = {
 			isa = PBXGroup;
 			children = (
+				F4FE87602488B8B50017658A /* MyItem+CoreDataClass.swift */,
+				F4FE87612488B8B50017658A /* MyItem+CoreDataProperties.swift */,
 				F4612DB9248895C600689119 /* AppDelegate.swift */,
 				F4612DBB248895C600689119 /* SceneDelegate.swift */,
 				F4612DBD248895C600689119 /* ViewController.swift */,
+				F4FE875B24889C4C0017658A /* Item.swift */,
 				F4612DBF248895C600689119 /* Main.storyboard */,
 				F4612DC5248895C700689119 /* Assets.xcassets */,
 				F4612DC7248895C700689119 /* LaunchScreen.storyboard */,
 				F4612DCA248895C700689119 /* Info.plist */,
-				F4612DC2248895C600689119 /* Five_Shelves.xcdatamodeld */,
+				F4612DD02488983B00689119 /* SecondViewController.swift */,
+				F4FE875D2488A9870017658A /* MyItem.xcdatamodeld */,
+				F466001D2489A45B00C605B1 /* ThirdViewController.swift */,
+				F46060E5248ABAE50037FA5A /* EditViewController.swift */,
+				F49D3804248C0ED300F4D323 /* ItemListCell.swift */,
 			);
 			path = "Five Shelves";
+			sourceTree = "<group>";
+		};
+		F4FE87692488C4910017658A /* Five ShelvesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4FE876A2488C4910017658A /* Five_ShelvesUITests.swift */,
+				F4FE876C2488C4910017658A /* Info.plist */,
+			);
+			path = "Five ShelvesUITests";
+			sourceTree = "<group>";
+		};
+		F4FE87772488C4990017658A /* Five ShelvesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4FE87782488C4990017658A /* Five_ShelvesTests.swift */,
+				F4FE877A2488C4990017658A /* Info.plist */,
+			);
+			path = "Five ShelvesTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +172,42 @@
 			productReference = F4612DB6248895C600689119 /* Five Shelves.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F4FE87672488C4910017658A /* Five ShelvesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FE876F2488C4910017658A /* Build configuration list for PBXNativeTarget "Five ShelvesUITests" */;
+			buildPhases = (
+				F4FE87642488C4910017658A /* Sources */,
+				F4FE87652488C4910017658A /* Frameworks */,
+				F4FE87662488C4910017658A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4FE876E2488C4910017658A /* PBXTargetDependency */,
+			);
+			name = "Five ShelvesUITests";
+			productName = "Five ShelvesUITests";
+			productReference = F4FE87682488C4910017658A /* Five ShelvesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F4FE87752488C4990017658A /* Five ShelvesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FE877D2488C4990017658A /* Build configuration list for PBXNativeTarget "Five ShelvesTests" */;
+			buildPhases = (
+				F4FE87722488C4990017658A /* Sources */,
+				F4FE87732488C4990017658A /* Frameworks */,
+				F4FE87742488C4990017658A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4FE877C2488C4990017658A /* PBXTargetDependency */,
+			);
+			name = "Five ShelvesTests";
+			productName = "Five ShelvesTests";
+			productReference = F4FE87762488C4990017658A /* Five ShelvesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +220,14 @@
 				TargetAttributes = {
 					F4612DB5248895C600689119 = {
 						CreatedOnToolsVersion = 11.5;
+					};
+					F4FE87672488C4910017658A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F4612DB5248895C600689119;
+					};
+					F4FE87752488C4990017658A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F4612DB5248895C600689119;
 					};
 				};
 			};
@@ -119,6 +245,8 @@
 			projectRoot = "";
 			targets = (
 				F4612DB5248895C600689119 /* Five Shelves */,
+				F4FE87672488C4910017658A /* Five ShelvesUITests */,
+				F4FE87752488C4990017658A /* Five ShelvesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +262,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4FE87662488C4910017658A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FE87742488C4990017658A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,14 +283,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4612DC4248895C600689119 /* Five_Shelves.xcdatamodeld in Sources */,
+				F46060E6248ABAE50037FA5A /* EditViewController.swift in Sources */,
 				F4612DBE248895C600689119 /* ViewController.swift in Sources */,
+				F466001E2489A45B00C605B1 /* ThirdViewController.swift in Sources */,
 				F4612DBA248895C600689119 /* AppDelegate.swift in Sources */,
+				F4FE87632488B8B50017658A /* MyItem+CoreDataProperties.swift in Sources */,
+				F4FE875F2488A9870017658A /* MyItem.xcdatamodeld in Sources */,
+				F4612DD12488983B00689119 /* SecondViewController.swift in Sources */,
+				F49D3805248C0ED300F4D323 /* ItemListCell.swift in Sources */,
+				F4FE875C24889C4C0017658A /* Item.swift in Sources */,
 				F4612DBC248895C600689119 /* SceneDelegate.swift in Sources */,
+				F4FE87622488B8B50017658A /* MyItem+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FE87642488C4910017658A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FE876B2488C4910017658A /* Five_ShelvesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FE87722488C4990017658A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FE87792488C4990017658A /* Five_ShelvesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4FE876E2488C4910017658A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4612DB5248895C600689119 /* Five Shelves */;
+			targetProxy = F4FE876D2488C4910017658A /* PBXContainerItemProxy */;
+		};
+		F4FE877C2488C4990017658A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4612DB5248895C600689119 /* Five Shelves */;
+			targetProxy = F4FE877B2488C4990017658A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F4612DBF248895C600689119 /* Main.storyboard */ = {
@@ -320,6 +498,84 @@
 			};
 			name = Release;
 		};
+		F4FE87702488C4910017658A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2CFQZ69B7;
+				INFOPLIST_FILE = "Five ShelvesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicodearco.test.Five-ShelvesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Five Shelves";
+			};
+			name = Debug;
+		};
+		F4FE87712488C4910017658A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2CFQZ69B7;
+				INFOPLIST_FILE = "Five ShelvesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicodearco.test.Five-ShelvesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Five Shelves";
+			};
+			name = Release;
+		};
+		F4FE877E2488C4990017658A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2CFQZ69B7;
+				INFOPLIST_FILE = "Five ShelvesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicodearco.test.Five-ShelvesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Five Shelves.app/Five Shelves";
+			};
+			name = Debug;
+		};
+		F4FE877F2488C4990017658A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2CFQZ69B7;
+				INFOPLIST_FILE = "Five ShelvesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicodearco.test.Five-ShelvesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Five Shelves.app/Five Shelves";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -341,16 +597,34 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		F4FE876F2488C4910017658A /* Build configuration list for PBXNativeTarget "Five ShelvesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FE87702488C4910017658A /* Debug */,
+				F4FE87712488C4910017658A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FE877D2488C4990017658A /* Build configuration list for PBXNativeTarget "Five ShelvesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FE877E2488C4990017658A /* Debug */,
+				F4FE877F2488C4990017658A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F4612DC2248895C600689119 /* Five_Shelves.xcdatamodeld */ = {
+		F4FE875D2488A9870017658A /* MyItem.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F4612DC3248895C600689119 /* Five_Shelves.xcdatamodel */,
+				F4FE875E2488A9870017658A /* MyItem.xcdatamodel */,
 			);
-			currentVersion = F4612DC3248895C600689119 /* Five_Shelves.xcdatamodel */;
-			path = Five_Shelves.xcdatamodeld;
+			currentVersion = F4FE875E2488A9870017658A /* MyItem.xcdatamodel */;
+			path = MyItem.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
